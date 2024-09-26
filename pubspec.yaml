@@ -1,0 +1,41 @@
+name: kisaan_seva
+description: "A new Flutter project."
+
+publish_to: "none"
+
+# App Version
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+# App dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  responsive_sizer: ^3.3.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Enabling material design
+  uses-material-design: true
+
+  # App assets
+  assets:
+    - assets/images/
+
+  # App fonts
+  # fonts:
+  #   - family: Sofia
+  #     fonts:
+  #       - asset: fonts/Lato-Bold.ttf
+  #       - asset: fonts/Lato-Light.ttf
+  #       - asset: fonts/Lato-Regular.ttf
+  #       - asset: fonts/Lato-Thin.ttf
